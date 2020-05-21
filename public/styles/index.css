@@ -183,6 +183,10 @@ nav ul li:hover{
   letter-spacing: -.05rem;
 }
 
+.cta{
+  margin: 30px;
+}
+
 .foot img{
   max-width: 100px;
   border-radius: 30px;
