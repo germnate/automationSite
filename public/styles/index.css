@@ -7,10 +7,38 @@ body {
   color: #5a5a5a;
 }
 
-.logoBar{
-  margin:auto;
-  padding-bottom: 4%;
+nav ul li{
+  padding-right: 20px;
 }
+
+.navbar-brand{
+  font-family: 'Racing Sans One';
+}
+
+@media (min-width: 990px){
+  .brand-long{
+    display: block;
+  }
+  .brand-short{
+    display: none;
+  }
+
+}
+
+@media (max-width:989px){
+  .brand-long{
+    display: none;
+  }
+  .brand-short{
+    display: block;
+  }
+}
+
+.container-fluid{
+  padding: 0;
+}
+
+
 
 .carousel-inner .container{
   padding: 0;
@@ -99,6 +127,11 @@ body {
 
 .checkmark{
   color: #337AFF;
+}
+
+.logoBar{
+  margin:auto;
+  padding-bottom: 4%;
 }
 
 .logo{
