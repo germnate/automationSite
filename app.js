@@ -30,6 +30,10 @@ app.get('/contact', function(req,res){
   res.render('contact');
 });
 
+app.get('/team', function(req, res){
+  res.render('team');
+});
+
 app.listen(process.env.PORT || port, function(){
   console.log("server listening on: " + port );
 });

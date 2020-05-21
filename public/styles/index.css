@@ -160,20 +160,6 @@ nav ul li:hover{
   max-width: 10rem;
 }
 
-.about-us{
-  color: #bbb;
-}
-
-.about-us h1{
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -.05rem;
-}
-
-.about-us{
-  padding: 7% 20%;
-}
-
 @media (max-width: 700px){
   .about-us{
     padding: 0;
