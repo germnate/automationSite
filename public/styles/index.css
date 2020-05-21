@@ -183,7 +183,10 @@ nav ul li:hover{
   letter-spacing: -.05rem;
 }
 
-
+.foot img{
+  max-width: 100px;
+  border-radius: 30px;
+}
 
 .foot{
   background-color: #777;
