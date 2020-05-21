@@ -22,10 +22,6 @@ app.get('/expertise', function(req, res){
   res.render('expertise');
 });
 
-app.get('/services', function(req, res){
-  res.render('services');
-});
-
 app.get('/contact', function(req,res){
   res.render('contact');
 });

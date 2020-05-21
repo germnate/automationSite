@@ -6,9 +6,14 @@ iframe{
   width: 100%;
 }
 
-a{
-  color: #cf0000;
-  text-shadow: 2px 2px 2px black;
+.swell{
+  transition: ease-in-out font-size .3s;
+  color: #fff;
+}
+
+.swell:hover{
+  color: white;
+  font-size: 150%;
 }
 
 body {
