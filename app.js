@@ -14,6 +14,14 @@ app.get('/about', function(req, res){
   res.render('about');
 });
 
+app.get('/solutions', function(req, res){
+  res.render('solutions');
+});
+
+app.get('/expertise', function(req, res){
+  res.render('expertise');
+});
+
 app.listen(process.env.PORT || port, function(){
   console.log("server listening on: " + port );
 });
