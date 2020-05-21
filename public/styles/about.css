@@ -11,3 +11,9 @@
 .about-us{
   padding: 7% 20%;
 }
+
+@media (max-width: 700px){
+  .about-us{
+    padding: 0;
+  }
+}

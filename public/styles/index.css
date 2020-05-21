@@ -160,11 +160,7 @@ nav ul li:hover{
   max-width: 10rem;
 }
 
-@media (max-width: 700px){
-  .about-us{
-    padding: 0;
-  }
-}
+
 
 
 /* Featurettes
